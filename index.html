@@ -1,78 +1,58 @@
-```<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My HTML Document</title>
-    <link rel="stylesheet" href="text.css"> <!-- Link to the CSS file -->
+    <title>Software Engineer at Texas A&M University</title>
+    <link rel="stylesheet" href="text.css"> <!-- External CSS file -->
 </head>
 <body>
 
     <header>
-        <h1>Welcome to Samuel's HTML Page</h1>
-        <br><br>
+        <h1>Welcome to My HTML Page</h1>
         <h1>Samuel</h1>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#section1">Section 1</a></li>
-            <li><a href="#section2">Section 2</a></li>
-        </ul>
-    </nav>
-
     <main>
-
-        <section id="section1">
-            <h2>This is Section 1</h2>
-            <p>Hello, This is my paragraph</p>
+        <div id="section1">
+            <h2>Software Engineer at Texas A&M University</h2>
+            <img src="pic.jpg" alt="headshot">
+            <p>Proven track record in driving throughput and quality improvement in warehouse operations involving up to 500 employees. Avid <strong>pickleball</strong> player. Enjoy developing projects with <em>accessibility</em> in mind. </p>
 
             <h3>Links</h3>
-            <p><a href="https://www.example.com">Visit Example.com</a></p>
+            <p><a href="https://www.linkedin.com/in/samuel-wade-b45473a1/">Visit My LinkedIn Profile</a></p>
+            <p><a href="https://usapickleball.org/what-is-pickleball/">USA Pickleball</a></p>
 
-            <h3>Images</h3>
-            <p>Semantic Image: <img src="semantic-image.jpg" alt="A meaningful image"></p>
-            <p>Decorative Image: <img src="decorative-image.jpg" alt="A decorative image" role="presentation"></p>
-        </section>
+            <h3>Pictures</h3>
+            <figure>
+                <img src="pickleball.jpg" alt="PickleBall!">
+                <figcaption>PickleBall!</figcaption>
+              </figure>
+              <figure>
+                <img src="cmpsci.png" alt="Computer Science">
+              </figure>
+            
 
-        <section id="section2">
-            <h2>This is Section 2</h2>
-            <p>This is a paragraph in Section 2.</p>
-
-            <h3>Lists</h3>
+            <h3>Interests</h3>
             <ul>
-                <li> Item 1</li>
-                <li>Unordered List Item 2</li>
-                <li>Unordered List Item 3</li>
+                <li>Pickleball</li>
+                <li>Python Flask</li>
+                <li>React JavaScript</li>
             </ul>
+        </div>
 
-            <ol>
-                <li>Ordered List Item 1</li>
-                <li>Ordered List Item 2</li>
-                <li>Ordered List Item 3</li>
-            </ol>
+        <h2>Shoot me an email!</h2>
 
-            <h3>Table</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Header 1</th>
-                        <th>Header 2</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Row 1, Cell 1</td>
-                        <td>Row 1, Cell 2</td>
-                    </tr>
-                    <tr>
-                        <td>Row 2, Cell 1</td>
-                        <td>Row 2, Cell 2</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
+        <form action="mailto:samuelrcwade@gmail.com" method="post" enctype="text/plain">
+            Name:<br>
+            <input type="text" name="name"><br>
+            E-mail:<br>
+            <input type="text" name="mail"><br>
+            Comment:<br>
+            <input type="text" name="comment" size="50"><br><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </form>
     </main>
 
     <footer>
@@ -80,3 +60,4 @@
     </footer>
 
 </body>
+</html>
